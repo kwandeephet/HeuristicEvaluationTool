@@ -18,6 +18,11 @@
 		else if (field.value == '')
 			field.value = field.defaultValue;
 	}
+	
+	function newPopup(url) {
+		popupWindow = window.open(
+			url,'popUpWindow','height=500,width=600,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+	}
 </script>
 </head>
 <body>
@@ -75,8 +80,8 @@
 				<br>
 				<table border="0">
 						<tr>
-							<td>File Name : </td>
-							<td>Menifest 1</td>
+							<td>File Name  :  </td>
+							<td width="200px">Menifest 1</td>
 							<td>
 								<input type="button" value="Delete">
 							</td>
@@ -99,22 +104,18 @@
 				<table border="1">
 						<tr>
 							<th>No.</th>
-							<th>Config File Name</th>
+							<th width="200px">Design Layout File Name</th>
 							<th>Edit</th>
 							<th>Delete</th>
-							<th>Select</th>
 						</tr>
 						<tr>
 							<td>1</td>
-							<td>Config 1</td>
+							<td>Design 1</td>
 							<td>
 								<input type="button" value="Edit">
 							</td>
 							<td>
 								<input type="button" value="Delete">
-							</td>
-							<td>
-								<input type="radio">
 							</td>
 						</tr>
 					</table>
@@ -127,29 +128,19 @@
                   <h2>User Configuration File</h2>             
 				</div>
                 <p align="right"> </p>
-                <a class="more float_l" href="#">Create</a>
+                <a class="more float_l" href="JavaScript:newPopup('configForm.jsp');">Create</a>
        
                 <div class="cleaner"></div>
                 <br>
-				<table border="1">
+				<table border="0">
 						<tr>
-							<th>No.</th>
-							<th>Config File Name</th>
-							<th>Edit</th>
-							<th>Delete</th>
-							<th>Select</th>
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>Config 1</td>
+							<td>Config File Name  :  </td>
+							<td width="130px">Config 1</td>
 							<td>
 								<input type="button" value="Edit">
 							</td>
 							<td>
 								<input type="button" value="Delete">
-							</td>
-							<td>
-								<input type="radio">
 							</td>
 						</tr>
 					</table>
@@ -165,22 +156,18 @@
 				<table border="1">
 						<tr>
 							<th>No.</th>
-							<th>Config File Name</th>
+							<th width="200px">Java File Name</th>
 							<th>Edit</th>
 							<th>Delete</th>
-							<th>Select</th>
 						</tr>
 						<tr>
 							<td>1</td>
-							<td>Config 1</td>
+							<td width="200px">Java File 1</td>
 							<td>
 								<input type="button" value="Edit">
 							</td>
 							<td>
 								<input type="button" value="Delete">
-							</td>
-							<td>
-								<input type="radio">
 							</td>
 						</tr>
 					</table>

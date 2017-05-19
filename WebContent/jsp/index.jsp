@@ -128,7 +128,7 @@
                   <h2>User Configuration File</h2>             
 				</div>
                 <p align="right"> </p>
-                <a class="more float_l" href="JavaScript:newPopup('configForm.jsp');">Create</a>
+                <a class="more float_l" href="JavaScript:newPopup('configFormPopUp.jsp');">Create</a>
        
                 <div class="cleaner"></div>
                 <br>

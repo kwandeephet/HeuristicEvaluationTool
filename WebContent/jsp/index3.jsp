@@ -9,7 +9,7 @@
 	content="clickable, theme, free templates, website templates, CSS, HTML" />
 <meta name="description"
 	content="Clickable Theme is a free website template provided by tooplate.com" />
-<link href="../tooplate_style.css" rel="stylesheet" type="text/css" />
+<link href="../css/tooplate_style.css" rel="stylesheet" type="text/css" />
 <!--   Free Website Template by t o o p l a t e . c o m   -->
 <script language="javascript" type="text/javascript">
 	function clearText(field) {

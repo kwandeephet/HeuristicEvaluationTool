@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>Heuristic Evaluation Tool</title>
 <meta name="keywords"
 	content="clickable, theme, free templates, website templates, CSS, HTML" />
 <meta name="description"
@@ -21,7 +21,7 @@
 	
 	function newPopup(url) {
 		popupWindow = window.open(
-			url,'popUpWindow','height=500,width=600,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+			url,'popUpWindow','height=600,width=900,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
 	}
 </script>
 </head>

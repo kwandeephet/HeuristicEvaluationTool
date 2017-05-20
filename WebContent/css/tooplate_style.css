@@ -279,6 +279,13 @@ em { color: #369c93 }
 
 /* end of menu */
 
+#tooplate_main_configForm2 {
+	clear: both;
+	margin: 0 auto;
+	padding: 25px 30px 25px;
+	background: none
+}
+
 #tooplate_main {
 	clear: both;
 	width: 900px;

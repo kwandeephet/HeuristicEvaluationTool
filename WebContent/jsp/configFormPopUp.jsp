@@ -17,8 +17,20 @@
 	
 	<h5>Enter data for configuration evaluation.</h5>
 	<div id="divName_configForm">
-		<h6>File Name :  </h6>
-		<input type="text" id="txtConfigName"/>
+		<table>
+			<tr>
+				<td><h6>Search TextFiled Name :  </h6></td>
+				<td><input type="text" id="txtConfigName"/></td>
+				<td><h6>Maximum Number for Animated Avoid :  </h6></td>
+				<td><input type="text" id="txtMaxAni"/></td>		
+			</tr>
+			<tr>
+				<td><h6>Maximum Number Typeface :  </h6></td>
+				<td><input type="text" id="txtMaxTypeface"/></td>
+				<td><h6>Percentage Number of Upper Case :  </h6></td>
+				<td><input type="text" id="txtPercenUpper"/></td>
+			</tr>
+		</table>
 	</div>
 	
 	<h5>Select evaluation questions for evaluate.</h5>
